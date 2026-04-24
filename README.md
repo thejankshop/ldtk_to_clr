@@ -2,7 +2,7 @@
 
 Updated 4/23/2026
 
-LDtk to clr tool by RuDeE@thejankshop
+LDtk to clr tool by RuDeE@thejankshop in collab with Copilot.
 
 This folder contains an unpacked MTM2 .pod file for a basic working MTM2 track with textures from my Kryptik Mountains track...
 
@@ -18,7 +18,9 @@ The included kmtemplate.ldtk project is already set up with some simple preset r
 There are a couple of different layers in the example kmtemplate.ldtk (explained from bottom to top):
 
 -The main tiles layer has a grid size of 64 pixels (required and matching the individual texture size of MTM2 textures) and is filled with the basic grass ground texture.
+
 -the IntGrid_Baked layer has some examples I painted using the rules from the IntGrid layer above it.
+
 -Finally, the IntGrid layer has the basic rules I set up for painting with rock, sand and dirt. After painting your own design, you must bake the IntGrid layer before running the ldk_to_clr* script.
 
 Usage:
@@ -39,6 +41,8 @@ NB. The script assumes you have converted all of your MTM2 .raw textures to .png
 Just select all of your .raw textures and drag and drop them onto triraw.exe to convert them.
 
 ***ldtk_to_clr_v2.py***
+
+Run python ldtk_to_clr_vr.py -h for the list of inputs.
 
 To use this script, you just need an LDtk project set up like kmtemplate.ldtk, as described above. The script writes the .clr from baked tiles layers and goes from bottom up as they are listed in LDtk; so any tiles layers at the top will overwrite layers below them if there is overlap. 
 
