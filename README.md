@@ -24,6 +24,7 @@ There are a couple of different layers in the example kmtemplate.ldtk (explained
 Usage:
 
 ***tex_to_tileset.py***
+
 Run python tex_to_tileset.py -h for the list of inputs.
 
 To use tex_to_tileset.py, you need a MTM2 .tex file in the data/ folder giving a full list of the textures from the art/ folder that you want to use for your track; e.g. see kmtempla.tex in the data/ folder (just right click and open in notepad to view).
