@@ -4,6 +4,8 @@ Updated 4/23/2026
 
 LDtk to clr tool by RuDeE@thejankshop in collab with Copilot.
 
+[![Watch the video](https://img.youtube.com/vi/jriEPkG2RsA/hqdefault.jpg)](https://www.youtube.com/embed/jriEPkG2RsA)
+
 This zip file contains an unpacked MTM2 .pod file for a basic working MTM2 track with textures from my Kryptik Mountains track...
 
 PLUS! 
